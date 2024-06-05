@@ -1,0 +1,24 @@
+.OtherTile {
+  background-color: white;
+  /* padding: 20px 30px; */
+  padding: 10px 10px;
+  min-height: 370px;
+  max-width: 735px;
+  border-radius: 16px;
+}
+
+.OtherTile .title {
+  color: #2286fe;
+  font-weight: 700;
+}
+
+.description {
+  color: #68768c;
+  font-weight: 400;
+}
+
+@media (min-width: 1000px) {
+  .OtherTile {
+    padding: 20px 30px;
+  }
+}

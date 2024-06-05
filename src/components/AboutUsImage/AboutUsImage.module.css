@@ -1,0 +1,9 @@
+.AboutUsImage {
+  width: 100%;
+  max-width: 2000px;
+  margin: auto;
+}
+
+.AboutUsImage img {
+  width: 100%;
+}

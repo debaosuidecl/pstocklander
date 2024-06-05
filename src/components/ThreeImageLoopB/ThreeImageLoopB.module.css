@@ -1,0 +1,157 @@
+.ThreeImageLoopB {
+  display: flex;
+  flex-flow: column;
+}
+
+.InvestAndTrack {
+  max-width: 2000px;
+  /* background-color: #1d33540d; */
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px 0px;
+  min-height: 655px;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: column;
+}
+.Left {
+  /* max-width: 450px; */
+  /* width: 100%; */
+
+  /* flex: 1; */
+  /* background-color: yellow;
+          flex-flow: column; */
+  /* align-items: center;
+          justify-self: center; */
+  /* padding: 20px 30px; */
+  display: flex;
+  /* background-color: yellow; */
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LeftText {
+  padding: 10px;
+  max-width: 800px;
+}
+.Left h2 {
+  font-weight: 800;
+  color: #1d3354;
+  font-size: 28px;
+}
+.Left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #68768c;
+}
+.Right {
+  /* background-color: green; */
+  width: 100%;
+}
+.Right img {
+  border-radius: 40px;
+  width: 100%;
+}
+.InvestHalf img {
+  max-width: 600px;
+}
+
+.InvestHalf .Right {
+  display: flex;
+  justify-content: center;
+}
+
+.InvestHalf {
+  background-color: #2286fe0d;
+  /* min-height: 962px; */
+  flex: 1;
+  border-radius: 20px;
+  /* padding: 20px 30px; */
+  padding: 10px 15px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+
+  /* margin-right: 20px; */
+}
+.TrackHalf {
+  background-color: #1d33540d;
+  /* min-height: 962px; */
+  flex: 1;
+  border-radius: 20px;
+  padding: 10px 15px;
+
+  /* margin-left: 20px; */
+}
+
+@media (min-width: 1000px) {
+  /* .Hero {
+          padding: 10px 30px 0px;
+          overflow: hidden;
+        } */
+
+  .Left h2 {
+    font-weight: 800;
+    color: #1d3354;
+    font-size: 40px;
+  }
+  .Left p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #68768c;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ThreeImageLoopB {
+    display: flex;
+    flex-flow: row;
+  }
+  .InvestHalf {
+    /* background-color: #2286fe0d;
+            min-height: 962px;
+            flex: 1;
+            border-radius: 20px; */
+    margin-right: 20px;
+    padding: 20px 30px;
+    margin-bottom: 00px;
+  }
+  .TrackHalf {
+    /* background-color: #1d33540d;
+            min-height: 962px;
+            flex: 1;
+            border-radius: 20px; */
+    margin-left: 20px;
+    padding: 20px 30px;
+  }
+  .InvestAndTrack {
+    min-height: 600px;
+    flex-flow: row;
+  }
+  .Left {
+    max-width: 700px;
+    display: flex;
+    flex-flow: column;
+    /* padding: 20px 30px; */
+  }
+  .DesktopOnly {
+    display: flex;
+  }
+  .MobileOnly {
+    display: none;
+  }
+  .Left h2 {
+    font-weight: 800;
+    color: #1d3354;
+    font-size: 54px;
+  }
+  .Left p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #68768c;
+  }
+}

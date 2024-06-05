@@ -1,0 +1,28 @@
+.CountComponent {
+  background-color: #2286fe0d;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  max-width: 2000px;
+  margin: 20px auto;
+}
+.CountComponent .CountComponentItem {
+  padding: 20px 30px;
+  text-align: center;
+}
+.CountComponent h2 {
+  font-size: 66px;
+  color: #2286fe;
+}
+
+.CountComponent p {
+  color: #1d3354;
+  font-size: 20px;
+}
+
+@media (min-width: 1000px) {
+  .CountComponent {
+    flex-direction: row;
+  }
+}

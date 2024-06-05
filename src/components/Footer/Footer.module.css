@@ -1,0 +1,44 @@
+.Footer {
+  min-height: 400px;
+  margin: 20px auto;
+  max-width: 2000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Item1 {
+  flex: 2 !important;
+}
+
+.sociallinks img {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.Item1 p {
+  color: #1d3354;
+}
+
+.Footer div {
+  flex: 1;
+}
+.Item2 {
+  padding: 20px 5px;
+}
+.Item2 p {
+  margin-bottom: 20px;
+}
+
+.Item2 a {
+  text-decoration: none;
+  color: #1a2e4c;
+}
+
+@media (min-width: 1000px) {
+  .Footer {
+    /* display: flex; */
+
+    flex-direction: row;
+  }
+}

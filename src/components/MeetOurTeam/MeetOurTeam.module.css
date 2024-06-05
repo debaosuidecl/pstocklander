@@ -1,0 +1,40 @@
+.MeetOurTeam {
+  max-width: 2000px;
+  margin: 20px auto;
+}
+.Header {
+  text-align: center;
+  font-size: 54px;
+}
+
+.Header span {
+  color: #2286fe;
+}
+
+.subheader {
+  color: #68768c;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.Member {
+  margin: 20px;
+  text-align: center;
+}
+.Member img {
+  height: 298px;
+  border-radius: 13px;
+}
+
+.Member h2 {
+  color: #1a2e4c;
+  font-size: 24px;
+}
+.Member p {
+  color: #68768c;
+}
+.Team {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}

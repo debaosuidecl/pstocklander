@@ -1,0 +1,176 @@
+.HeroCover {
+  background-color: #2286fe0d;
+}
+.Hero {
+  /* background-color: #2286fe0d; */
+  /* min-height: 50vh; */
+  padding: 10px 2px 0px;
+  /* background-color: red; */
+  display: flex;
+  /* flex-flow: row; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+
+  /* background-color: green; */
+  margin: 0px auto;
+  max-width: 2000px;
+  /* min-height: 600px; */
+  /* width: 1500px; */
+}
+
+.Left {
+  /* max-width: 450px; */
+  /* width: 100%; */
+
+  /* flex: 1; */
+  /* background-color: yellow;
+    flex-flow: column; */
+  /* align-items: center;
+    justify-self: center; */
+  /* padding: 20px 30px; */
+  display: flex;
+  /* background-color: yellow; */
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.LeftText {
+  padding: 10px;
+}
+.Left h2 {
+  font-weight: 800;
+  color: #1d3354;
+  font-size: 28px;
+}
+.Left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #68768c;
+}
+.Right {
+  flex: 1;
+
+  /* background-color: green; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+  /* padding: 10px; */
+  /* height: 100vh; */
+}
+
+.BlueShape {
+  width: 354px;
+  height: 600px;
+  right: 0px;
+  bottom: -20px;
+  background-color: #2286fe;
+  animation: sliderighttoleft 2s cubic-bezier(0.075, 0.82, 0.165, 1) -0.5s;
+  position: absolute;
+  z-index: 3000;
+}
+
+.Right .Phone {
+  /* height: 800px; */
+  display: block;
+  /* margin-right: 40px; */
+
+  right: 100px;
+
+  animation: slideup 2s linear;
+
+  position: absolute;
+  z-index: 4000;
+}
+.DesktopOnly {
+  display: none;
+}
+.MobileOnly {
+  display: flex;
+}
+.Flex {
+  display: flex;
+}
+
+.Flex img {
+  transition: 0.35s;
+  cursor: pointer;
+}
+
+.Flex img:hover {
+  transform: translateY(-10px);
+  transition: 0.35s;
+}
+
+.Flex img:first-child {
+  display: block;
+  margin-right: 10px;
+}
+
+@media (min-width: 1000px) {
+  .Hero {
+    padding: 10px 30px 0px;
+    overflow: hidden;
+  }
+  .Left h2 {
+    font-weight: 800;
+    color: #1d3354;
+    font-size: 40px;
+  }
+  .Left p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #68768c;
+  }
+}
+@media (min-width: 1250px) {
+  .Hero {
+    min-height: 600px;
+  }
+  .Left {
+    max-width: 700px;
+    display: flex;
+    flex-flow: column;
+    /* padding: 20px 30px; */
+  }
+  .DesktopOnly {
+    display: flex;
+  }
+  .MobileOnly {
+    display: none;
+  }
+  .Left h2 {
+    font-weight: 800;
+    color: #1d3354;
+    font-size: 54px;
+  }
+  .Left p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #68768c;
+  }
+}
+
+@keyframes slideup {
+  0% {
+    transform: translateY(50px);
+    /* opacity: 0.5; */
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes sliderighttoleft {
+  0% {
+    transform: translateX(500px);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}

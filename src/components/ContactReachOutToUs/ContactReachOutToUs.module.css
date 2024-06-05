@@ -1,0 +1,73 @@
+.sociallinks img {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.ContactReachOutToUs {
+  max-width: 1500px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+
+.Left {
+  padding: 20px;
+  flex: 1;
+}
+.Right {
+  flex: 1;
+}
+.Flex {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.Flex .callus {
+  margin-right: 20px;
+  width: 100%;
+  max-width: 501px;
+  margin-bottom: 20px;
+  height: 76px;
+}
+
+.Flex .emailus {
+  background-color: #1d3354;
+  padding: 10px 20px;
+  border-radius: 9px;
+  max-width: 501px;
+  width: 100%;
+  height: 76px;
+}
+
+.Left h2 {
+  color: #1d3354;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.callus {
+  background-color: #2286fe;
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+.Flex p {
+  font-size: 16px;
+}
+
+.Address {
+  color: #68768c;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+@media (min-width: 1000px) {
+  .ContactReachOutToUs {
+    flex-direction: row;
+  }
+  .Flex {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,78 @@
+.HowItWorksSchema {
+  padding: 10px 30px;
+  max-width: 2000px;
+  margin: auto;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  color: #2286fe;
+}
+
+.Header {
+  text-align: left;
+  font-size: 34px;
+}
+
+.Header span {
+  color: #2286fe;
+}
+
+.subheader {
+  color: #68768c;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.group {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column;
+}
+
+.groupitem {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.groupitem h2 {
+  color: #1d3354;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.groupitem p {
+  text-align: center;
+  color: #68768c;
+  font-size: 18px;
+}
+
+.Number {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #2286fe1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2286fe;
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: 800;
+}
+
+@media (min-width: 1000px) {
+  .group {
+    flex-flow: row;
+  }
+  .HowItWorksSchema {
+  }
+  .Header {
+    font-size: 54px;
+  }
+}

@@ -1,0 +1,74 @@
+.UnlockPotential {
+  background: url("../../assets/images/unlockpotential.png") center center
+    no-repeat;
+  background-size: cover;
+  background-color: #2286fe;
+  max-width: 2000px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.UnlockPotential h2 {
+  color: white;
+  font-size: 44px;
+  text-align: center;
+  padding: 10px;
+}
+
+.UnlockPotential {
+  text-align: center;
+  color: white;
+
+  font-weight: 100;
+  /* padding: 10px; */
+}
+.UnlockPotential .desc {
+  padding: 10px;
+}
+
+.descb {
+  font-size: 14px;
+}
+.TransparentButton {
+  border-radius: 60px;
+  border: 1px solid white;
+  width: 184px;
+  display: flex;
+  /* flex-flow: row; */
+  align-items: center;
+  padding: 10px 25px;
+  margin-right: 10px;
+  /* display: inline-block; */
+  /* justify-content: space-between; */
+}
+.textright {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.maintext {
+  font-weight: 900;
+}
+
+.Flex {
+  /* display: flex; */
+
+  /* text-align: center; */
+
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+}
+
+.Flexb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Flexb img {
+  width: 100%;
+  max-width: 1400px;
+}

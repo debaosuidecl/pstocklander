@@ -1,0 +1,17 @@
+.Button {
+  background-color: #2286fe;
+  width: 290px;
+  border-radius: 30px;
+  display: flex;
+  padding: 16px 14px;
+  align-items: center;
+  justify-content: center;
+}
+.Button:hover {
+  /* padding: 50px; */
+  /* transform: translateX(-20px); */
+}
+.Button p {
+  color: white !important;
+  margin-right: 8px;
+}

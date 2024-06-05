@@ -1,0 +1,33 @@
+.FaqHero {
+  padding: 10px 10px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #2286fe;
+}
+
+.Header {
+  text-align: center;
+  font-size: 34px;
+}
+
+.Header span {
+  color: #2286fe;
+}
+
+.subheader {
+  color: #68768c;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 1000px) {
+  .FaqHero {
+  }
+  .Header {
+    font-size: 54px;
+  }
+}
